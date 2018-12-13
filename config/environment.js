@@ -1,5 +1,9 @@
 'use strict';
 
 module.exports = function(/* environment, appConfig */) {
-  return { };
+  	const ENV = {
+		modulePrefix: 'checkout88',
+		environment: environment
+	}
+	return ENV;
 };

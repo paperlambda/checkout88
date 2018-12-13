@@ -1,5 +1,8 @@
 'use strict';
 
-module.exports = {
-  name: 'checkout88'
-};
+const EngineAddon = require('ember-engines/lib/engine-addon');
+
+module.exports = EngineAddon({
+  name: 'checkout88',
+	lazyLoading: false
+});
