@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.mount('checkout88', {as: 'checkout'});
 });
 
 export default Router;
